@@ -1,6 +1,17 @@
 # * Import proper Data Analysis pipeline tools
 import pandas as pd
 
+def getAttendanceNumbersPerStartTime(df_csv):
+    # Grouping the dataframe by "hora_inicio"
+    attendance_by_start_time = df_csv.groupby('hora_inicio').size()
+    
+    # Sorting the dataframe in descending order
+    attendance_by_start_time.sort_values(by='hora_inicio', ascending=False)
+
+    # Display the result
+    print("\nATTENDANCE BY StartTime:")
+    print(attendance_by_start_time)
+
 def getAttendanceNumbersPerDayOfTheWeek(df_csv):
 
     # to datetime format...
@@ -8,19 +19,25 @@ def getAttendanceNumbersPerDayOfTheWeek(df_csv):
                                               format='%A, %B %d, %Y')
     
     # Define the desired order of days of the week
-    desired_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-
-    # Create a mapping of the day names to their corresponding position in the desired order
-    order_mapping = {day: idx for idx, day in enumerate(desired_order)}
+    day_to_numeric = {
+        'Monday': 0,
+        'Tuesday': 1,
+        'Wednesday': 2,
+        'Thursday': 3,
+        'Friday': 4
+    }
 
     # Group by day of the week
     attendance_by_day = df_csv.groupby(df_csv['fecha_mmddyyyy'].dt.day_name()).size().reset_index(name='attendance_count')
+    
+    # Add an extra column assigning numeric values based on the day of the week
+    attendance_by_day['day_numeric'] = attendance_by_day['fecha_mmddyyyy'].map(day_to_numeric)
 
-    # Apply the custom sorting key based on the desired order
-    attendance_by_day_sorted = df_csv.sort_values(by='fecha_mmddyyyy', key=lambda x: x.map(order_mapping))
+    # Sort the DataFrame based on the 'day_numeric' column in ascending order
+    attendance_by_day_sorted = attendance_by_day.sort_values(by='day_numeric')
 
     # Display the result
-    print("ATTENDANCE BY DAY:")
+    print("\nATTENDANCE BY DAY:")
     print(attendance_by_day_sorted)
 
 def getAttendanceNumbersPerMatricula(df_csv):
@@ -28,26 +45,48 @@ def getAttendanceNumbersPerMatricula(df_csv):
     attendance_by_matricula = df_csv.groupby('matricula').size().reset_index(name="attendance_count")
 
     # Display the result
-    print("ATTENDANCE BY MATRICULA:")
+    print("\nATTENDANCE BY MATRICULA:")
     print(attendance_by_matricula)
 
     # Sort the DataFrame based on the "attendance_count" column in descending order
     top_ten_attendance_records = attendance_by_matricula.sort_values(by='attendance_count', ascending=False).head(10)
     
     # Display the result
-    print("TOP 10 ATTENDANCE BY MATRICULA:")
+    print("\nTOP 10 ATTENDANCE BY MATRICULA:")
     print(top_ten_attendance_records)
 
+def getAttendanceRateByWeekRecurrentStudents(df_csv):
+    # Convert the 'fecha_mmddyyyy' column to datetime format
+    df_csv['fecha_mmddyyyy'] = pd.to_datetime(df_csv['fecha_mmddyyyy'], format='%A, %B %d, %Y')
+
+    # Group by student, week, and count the number of attendances per week
+    student_week_attendance = df_csv.groupby(['matricula', df_csv['fecha_mmddyyyy'].dt.isocalendar().week]).size()
+
+    # Filter students who attended at least twice in a week
+    recurrent_students = student_week_attendance[student_week_attendance >= 2].reset_index(level=1)
+
+    # Count the number of unique students that were recurrent
+    unique_recurrent_students = recurrent_students.index.nunique()
+
+    # Count the number of unique total students
+    unique_total_students = df_csv['matricula'].nunique()
+
+    # Calculate the recurrent student's weekly attendance rate
+    recurrent_student_attendance_rate = (unique_recurrent_students / unique_total_students) * 100
+
+    print("\nAchieved recurrent student's weekly attendance rate:")
+    print(round(recurrent_student_attendance_rate, 2))
 
 def main():
+
     ATTENDANCE_DATA_CSV_FILENAME = "../csv/attendance_data.csv"
 
     df_csv = pd.read_csv(ATTENDANCE_DATA_CSV_FILENAME)
 
-    #print(df_csv)
-
     getAttendanceNumbersPerDayOfTheWeek(df_csv)
     getAttendanceNumbersPerMatricula(df_csv)
+    getAttendanceNumbersPerStartTime(df_csv)
+    getAttendanceRateByWeekRecurrentStudents(df_csv)
 
 if __name__ == '__main__':
     main()
