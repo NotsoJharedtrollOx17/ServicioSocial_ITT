@@ -12,15 +12,24 @@ def getTimeSeriesAttendanceNumbers(df_csv):
     # Convert the 'fecha_mmddyyyy' column to datetime format
     df_csv['fecha_mmddyyyy'] = pd.to_datetime(df_csv['fecha_mmddyyyy'], format='%A, %B %d, %Y')
 
+    # ? weird bug related to date display within the plot
+    print(df_csv['fecha_mmddyyyy'])
+
     # Group the data by date and count attendance for each date
     attendance_over_time = df_csv.groupby('fecha_mmddyyyy').size().rename('attendance_count')
+
+    print(attendance_over_time)
 
     fig, axes = plt.subplots(figsize=utils.getPlotSize(), 
                              dpi=utils.getDpiScale())
 
-    axes.plot(attendance_over_time.index, attendance_over_time.values, 
-              color='forestgreen')
+    # Add vertical dotted lines for each dot
+    for date, count in zip(attendance_over_time.index, attendance_over_time.values):
+        axes.vlines(x=date, ymin=0, ymax=count, color='seagreen', linestyle='--', alpha=0.5)
     
+    axes.scatter(attendance_over_time.index, attendance_over_time.values, 
+              color='forestgreen')
+
     # Set labels and title
     axes.yaxis.set_major_locator(ticker.MaxNLocator(integer=True)) # * Forzar la escala vertical a números enteros
     axes.xaxis.set_tick_params(labelsize=8)
@@ -34,8 +43,8 @@ def getTimeSeriesAttendanceNumbers(df_csv):
     axes.grid(True)
 
     # Show the plot
-    plt.savefig(file_path)
-    plt.close()
+    #plt.savefig(file_path)
+    #plt.close()
     
     print(f"GRAFICA {file_path} realizada con éxito!")
 

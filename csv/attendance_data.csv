@@ -169,9 +169,9 @@
 2202421,TCI,Cálculo Diferencial,Desigualdades,Grupal,"Thursday, August 31, 2023",10:00,11:00
 2202525,TCI,Cálculo Diferencial,Funciones,Individual,"Monday, September 4, 2023",10:00,11:00
 1298918,TCI,Cálculo Diferencial,Funciones,Individual,"Monday, September 4, 2023",12:00,13:00
-1298918,TCI,Cálculo Diferencial,Funciones,Individual,"Tuesday, May 9, 2023",9:50,10:50
-2207136,TCI,Cálculo Diferencial,Funciones,Grupal,"Tuesday, May 9, 2023",11:00,13:00
-1279267,TCI,Cálculo Diferencial,Funciones,Grupal,"Tuesday, May 9, 2023",11:00,13:00
+1298918,TCI,Cálculo Diferencial,Funciones,Individual,"Tuesday, September 5, 2023",9:50,10:50
+2207136,TCI,Cálculo Diferencial,Funciones,Grupal,"Tuesday, September 5, 2023",11:00,13:00
+1279267,TCI,Cálculo Diferencial,Funciones,Grupal,"Tuesday, September 5, 2023",11:00,13:00
 2207604,TCI,Cálculo Diferencial,Funciones,Grupal,"Wednesday, September 6, 2023",10:00,11:00
 2202939,TCI,Cálculo Diferencial,Funciones,Grupal,"Wednesday, September 6, 2023",10:00,11:00
 2203631,TCI,Cálculo Diferencial,Funciones,Grupal,"Wednesday, September 6, 2023",10:00,11:00
@@ -225,25 +225,25 @@
 2209392,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Thursday, September 21, 2023",12:00,13:00
 2211046,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Thursday, September 21, 2023",12:00,13:00
 2200269,TCI,Programación y Métodos Númericos,Matrices,Individual,"Friday, September 22, 2023",10:00,11:00
-2203630,TCI,Cálculo Diferencial,Límites,Individual,"Friday, February 10, 2023",10:00,12:00
-1274267,TCI,Cálculo Diferencial,Límites,Grupal,"Friday, March 10, 2023",11:00,13:00
-2207136,TCI,Cálculo Diferencial,Límites,Grupal,"Friday, March 10, 2023",11:00,13:00
-2210154,TCI,Cálculo Diferencial,Límites,Grupal,"Friday, March 10, 2023",12:00,13:00
-2202199,TCI,Cálculo Diferencial,Límites,Grupal,"Friday, March 10, 2023",12:00,13:00
-2203818,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, April 10, 2023",10:00,11:00
-2202421,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, April 10, 2023",10:00,11:00
-2207426,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, April 10, 2023",10:00,11:00
-2203631,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, April 10, 2023",10:00,11:00
-2207604,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, April 10, 2023",10:00,11:00
-2210145,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, April 10, 2023",12:00,13:00
-2202199,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, April 10, 2023",12:00,13:00
-2202525,TCI,Cálculo Diferencial,Límites,Grupal,"Wednesday, May 10, 2023",10:00,11:00
-2209392,TCI,Cálculo Diferencial,Límites,Grupal,"Wednesday, May 10, 2023",10:00,11:00
-1298918,TCI,Cálculo Diferencial,Límites,Grupal,"Wednesday, May 10, 2023",11:00,13:00
-2209392,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Wednesday, May 10, 2023",12:00,13:00
-2211046,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Wednesday, May 10, 2023",12:00,13:00
-2210145,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Wednesday, May 10, 2023",12:00,13:00
-2209258,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Wednesday, May 10, 2023",12:00,13:00
+2203630,TCI,Cálculo Diferencial,Límites,Individual,"Friday, October, 2023",10:00,12:00
+1274267,TCI,Cálculo Diferencial,Límites,Grupal,"Friday, October 3, 2023",11:00,13:00
+2207136,TCI,Cálculo Diferencial,Límites,Grupal,"Friday, October 3, 2023",11:00,13:00
+2210154,TCI,Cálculo Diferencial,Límites,Grupal,"Friday, October 3, 2023",12:00,13:00
+2202199,TCI,Cálculo Diferencial,Límites,Grupal,"Friday, October 3, 2023",12:00,13:00
+2203818,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, October 4, 2023",10:00,11:00
+2202421,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, October 4, 2023",10:00,11:00
+2207426,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, October 4, 2023",10:00,11:00
+2203631,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, October 4, 2023",10:00,11:00
+2207604,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, October 4, 2023",10:00,11:00
+2210145,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, October 4, 2023",12:00,13:00
+2202199,TCI,Cálculo Diferencial,Límites,Grupal,"Monday, October 4, 2023",12:00,13:00
+2202525,TCI,Cálculo Diferencial,Límites,Grupal,"Wednesday, October 5, 2023",10:00,11:00
+2209392,TCI,Cálculo Diferencial,Límites,Grupal,"Wednesday, October 5, 2023",10:00,11:00
+1298918,TCI,Cálculo Diferencial,Límites,Grupal,"Wednesday, October 5, 2023",11:00,13:00
+2209392,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Wednesday, October 5, 2023",12:00,13:00
+2211046,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Wednesday, October 5, 2023",12:00,13:00
+2210145,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Wednesday, October 5, 2023",12:00,13:00
+2209258,TCI,Metodología de la Programación,Pseudocódigo,Grupal,"Wednesday, October 5, 2023",12:00,13:00
 2203630,TCI,Cálculo Diferencial,Límites,Individual,"Friday, September 29, 2023",10:00,12:00
 2202525,TCI,Cálculo Diferencial,Límites,Grupal,"Tuesday, October 10, 2023",10:00,11:00
 2203630,TCI,Cálculo Diferencial,Límites,Grupal,"Tuesday, October 10, 2023",10:00,11:00
