@@ -1,15 +1,28 @@
-# * Import proper Data Analysis pipeline tools
 import pandas as pd
+from utils import getDatasetDataframe
 
 def getAttendanceNumbersPerStartTime(df_csv):
     # Grouping the dataframe by "hora_inicio"
-    attendance_by_start_time = df_csv.groupby('hora_inicio').size()
+    attendance_by_start_time = df_csv.groupby('hora_inicio'
+                                              ).size().reset_index(name='attendance_count')
     
     # Sorting the dataframe in descending order
-    attendance_by_start_time.sort_values(by='hora_inicio', ascending=False)
+    attendance_by_start_time.sort_values(by='hora_inicio', ascending=False, inplace=True)
 
     # Display the result
     print("\nATTENDANCE BY StartTime:")
+    print(attendance_by_start_time)
+
+def getAttendanceNumbersPerFinishTime(df_csv):
+    # Grouping the dataframe by "hora_inicio"
+    attendance_by_start_time = df_csv.groupby('hora_fin'
+                                              ).size().reset_index(name='attendance_count')
+    
+    # Sorting the dataframe in descending order
+    attendance_by_start_time.sort_values(by='hora_fin', ascending=False, inplace=True)
+
+    # Display the result
+    print("\nATTENDANCE BY FinishTime:")
     print(attendance_by_start_time)
 
 def getAttendanceNumbersPerDayOfTheWeek(df_csv):
@@ -79,14 +92,14 @@ def getAttendanceRateByWeekRecurrentStudents(df_csv):
 
 def main():
 
-    ATTENDANCE_DATA_CSV_FILENAME = "../csv/attendance_data.csv"
+    # * Loads dataset
+    df_csv = getDatasetDataframe()
 
-    df_csv = pd.read_csv(ATTENDANCE_DATA_CSV_FILENAME)
-
+    getAttendanceRateByWeekRecurrentStudents(df_csv)
     getAttendanceNumbersPerDayOfTheWeek(df_csv)
     getAttendanceNumbersPerMatricula(df_csv)
     getAttendanceNumbersPerStartTime(df_csv)
-    getAttendanceRateByWeekRecurrentStudents(df_csv)
+    getAttendanceNumbersPerFinishTime(df_csv)
 
 if __name__ == '__main__':
     main()
