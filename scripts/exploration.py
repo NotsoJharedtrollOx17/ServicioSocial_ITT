@@ -28,8 +28,7 @@ def getAttendanceNumbersPerFinishTime(df_csv):
 def getAttendanceNumbersPerDayOfTheWeek(df_csv):
 
     # to datetime format...
-    df_csv['fecha_mmddyyyy'] = pd.to_datetime(df_csv['fecha_mmddyyyy'], 
-                                              format='%A, %B %d, %Y')
+    df_csv['fecha_mmddyyyy'] = pd.to_datetime(df_csv['fecha_mmddyyyy'], format='%m/%d/%Y')
     
     # Define the desired order of days of the week
     day_to_numeric = {
@@ -70,7 +69,7 @@ def getAttendanceNumbersPerMatricula(df_csv):
 
 def getAttendanceRateByWeekRecurrentStudents(df_csv):
     # Convert the 'fecha_mmddyyyy' column to datetime format
-    df_csv['fecha_mmddyyyy'] = pd.to_datetime(df_csv['fecha_mmddyyyy'], format='%A, %B %d, %Y')
+    df_csv['fecha_mmddyyyy'] = pd.to_datetime(df_csv['fecha_mmddyyyy'], format='%m/%d/%Y')
 
     # Group by student, week, and count the number of attendances per week
     student_week_attendance = df_csv.groupby(['matricula', df_csv['fecha_mmddyyyy'].dt.isocalendar().week]).size()
