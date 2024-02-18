@@ -1,6 +1,23 @@
 import pandas as pd
 from utils import getDatasetDataframe
 
+def getAttendanceNumbersPerStartAndFinishTime(df_csv):
+    # Concatenate 'hora_inicio' and 'hora_fin' columns
+    df_csv['combined_time'] = df_csv['hora_inicio'] + ' - ' + df_csv['hora_fin']
+    
+    # Grouping the dataframe by "combined_time"
+    attendance_by_time = df_csv.groupby('combined_time').size().reset_index(name='attendance_count')
+    
+    # Sorting the dataframe in ascending order of 'combined_time'
+    attendance_by_time.sort_values(by='combined_time', ascending=True, inplace=True)
+
+ # Filter for attendance values greater than 2
+    attendance_by_time_filtered = attendance_by_time[attendance_by_time['attendance_count'] > 2]
+
+    # Display the result
+    print("\nATTENDANCE BY Start and Finish Time (TOP 6 MOST FREQUENT TIMESPANS):")
+    print(attendance_by_time_filtered)
+
 def getAttendanceNumbersPerStartTime(df_csv):
     # Grouping the dataframe by "hora_inicio"
     attendance_by_start_time = df_csv.groupby('hora_inicio'
@@ -98,6 +115,7 @@ def main():
     getAttendanceNumbersPerMatricula(df_csv)
     getAttendanceNumbersPerStartTime(df_csv)
     getAttendanceNumbersPerFinishTime(df_csv)
+    getAttendanceNumbersPerStartAndFinishTime(df_csv)
 
 if __name__ == '__main__':
     main()

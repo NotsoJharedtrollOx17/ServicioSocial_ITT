@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import ticker
 
-# TODO WRITE HISTOGRAM FOR DAYS OF THE WEEK (Mon - Fri)
+# TODO WRITE HISTOGRAM FOR START AND FINISH TIME
 def getTimeSeriesAttendanceNumbers(df_csv):
     FILE_NAME = "00_timeseries_asistencia_por_dia"
     file_path = f"{utils.getResultsFilePath()}{FILE_NAME}"
@@ -114,6 +114,58 @@ def getHorizontalBarGraphAttendancePerDayOfWeek(df_csv):
 
     print(f"GRAFICA {file_path} realizada con éxito!")
 
+def getHorizontalBarGraphAttendancePerTopHourSpans(df_csv):
+    colors = ["#0AFF0A",
+              "#04d50b",
+              "#029A09",
+              "#028707",
+              "#026205",
+              "#024002",
+              ] # * greenish color gradient
+
+    FILE_NAME = "02_horizontalbar_asistencia_top6_horarios"
+    file_path = f"{utils.getResultsFilePath()}{FILE_NAME}"
+
+    # Concatenate 'hora_inicio' and 'hora_fin' columns
+    df_csv['combined_time'] = df_csv['hora_inicio'] + ' - ' + df_csv['hora_fin']
+    
+    # Grouping the dataframe by "combined_time"
+    attendance_by_time = df_csv.groupby('combined_time').size().reset_index(name='attendance_count')
+    
+    # Assigning the colors to the values of the dataframe
+    attendance_by_hour_sorted = attendance_by_time.sort_values(by='attendance_count')
+    
+    # Filter for attendance values greater than 2
+    attendance_by_hour_filtered = attendance_by_hour_sorted[attendance_by_hour_sorted['attendance_count'] > 2]
+    
+    attendance_by_hour_filtered['color'] = [colors[i] for i in range(len(colors))]
+    
+    # Sorting the dataframe in ascending order of 'combined_time'
+    attendance_by_hour_filtered.sort_values(by='combined_time', ascending=False, inplace=True)
+
+    fig, axes = plt.subplots(figsize=utils.getPlotSize(), dpi=utils.getDpiScale())
+    
+    # Optionally, set additional properties such as grid lines
+    axes.grid(True, linestyle='--', zorder=1)
+
+    # Create horizontal bar graph
+    axes.barh(attendance_by_hour_filtered['combined_time'], attendance_by_hour_filtered['attendance_count'], 
+              color=attendance_by_hour_filtered['color'], height=0.5, zorder=2)
+
+    # Set labels and title
+    axes.xaxis.set_major_locator(ticker.MaxNLocator(integer=True)) # * Forzar la escala vertical a números enteros
+    axes.xaxis.set_tick_params(labelsize=8)
+    axes.yaxis.set_tick_params(labelsize=8)
+    axes.set_xlabel('Attendance Count', fontsize=11)
+    axes.set_ylabel('Hour Spans', fontsize=11)
+    axes.set_title('Top 6 Attendance Hour Spans', fontsize=12)
+
+    # Show the plot
+    plt.savefig(file_path)
+    plt.close()
+
+    print(f"GRAFICA {file_path} realizada con éxito!")
+
 def main():
     
     # carga del CSV como dataframe
@@ -122,8 +174,9 @@ def main():
     # agregar fondo transparente a las gráficas
     utils.setTransparentPlots(True)
 
-    getTimeSeriesAttendanceNumbers(df_csv)
-    getHorizontalBarGraphAttendancePerDayOfWeek(df_csv)
+    #getTimeSeriesAttendanceNumbers(df_csv)
+    #getHorizontalBarGraphAttendancePerDayOfWeek(df_csv)
+    getHorizontalBarGraphAttendancePerTopHourSpans(df_csv)
 
 if __name__ == '__main__':
     main()

@@ -153,7 +153,7 @@ matricula,programa_educativo,asignatura,tema,grupal/individual,fecha_mmddyyyy,ho
 1297915,TCI,Cálculo Diferencial,Derivadas,Individual,05/31/2023,10:00,13:00
 1297915,TCI,Cálculo Diferencial,Derivadas,Individual,06/01/2023,10:00,13:00
 1297915,TCI,Cálculo Diferencial,Derivadas,Individual,06/02/2023,10:00,13:00
-2202525,TCI,Cálculo Diferencial,Desigualdades,Individual,08/28/2023,9:00,11:00
+2202525,TCI,Cálculo Diferencial,Desigualdades,Individual,08/28/2023,09:00,11:00
 2203630,TCI,Cálculo Diferencial,Desigualdades,Individual,08/28/2023,11:00,12:00
 1274267,TCI,Cálculo Diferencial,Desigualdades,Grupal,08/29/2023,11:00,13:00
 2207136,TCI,Cálculo Diferencial,Desigualdades,Grupal,08/29/2023,11:00,13:00
@@ -169,7 +169,7 @@ matricula,programa_educativo,asignatura,tema,grupal/individual,fecha_mmddyyyy,ho
 2202421,TCI,Cálculo Diferencial,Desigualdades,Grupal,08/31/2023,10:00,11:00
 2202525,TCI,Cálculo Diferencial,Funciones,Individual,09/04/2023,10:00,11:00
 1298918,TCI,Cálculo Diferencial,Funciones,Individual,09/04/2023,12:00,13:00
-1298918,TCI,Cálculo Diferencial,Funciones,Individual,09/05/2023,9:50,10:50
+1298918,TCI,Cálculo Diferencial,Funciones,Individual,09/05/2023,09:50,10:50
 2207136,TCI,Cálculo Diferencial,Funciones,Grupal,09/05/2023,11:00,13:00
 1279267,TCI,Cálculo Diferencial,Funciones,Grupal,09/05/2023,11:00,13:00
 2207604,TCI,Cálculo Diferencial,Funciones,Grupal,09/06/2023,10:00,11:00
@@ -268,8 +268,8 @@ matricula,programa_educativo,asignatura,tema,grupal/individual,fecha_mmddyyyy,ho
 2202164,TCI,Cálculo Diferencial,Límites,Grupal,10/12/2023,11:00,12:00
 2210145,TCI,Metodología de la Programación,Pseudocódigo,Grupal,10/12/2023,12:00,13:00
 2209258,TCI,Metodología de la Programación,Pseudocódigo,Grupal,10/12/2023,12:00,13:00
-2203630,TCI,Cálculo Diferencial,Límites,Grupal,10/13/2023,9:00,10:00
-2202525,TCI,Cálculo Diferencial,Límites,Grupal,10/13/2023,9:00,11:00
+2203630,TCI,Cálculo Diferencial,Límites,Grupal,10/13/2023,09:00,10:00
+2202525,TCI,Cálculo Diferencial,Límites,Grupal,10/13/2023,09:00,11:00
 1239982,TCI,Cálculo Diferencial,Límites,Grupal,10/13/2023,10:00,12:00
 2207426,TCI,Cálculo Diferencial,Límites,Grupal,10/13/2023,10:00,12:00
 1274267,TCI,Cálculo Diferencial,Asíntotas,Grupal,10/17/2023,11:00,13:00
