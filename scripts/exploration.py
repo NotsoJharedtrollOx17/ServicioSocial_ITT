@@ -86,8 +86,7 @@ def getAttendanceRateByWeekRecurrentStudents(df_csv):
     # Calculate the recurrent student's weekly attendance rate
     recurrent_student_attendance_rate = (unique_recurrent_students / unique_total_students) * 100
 
-    print("\nAchieved recurrent student's weekly attendance rate:")
-    print(round(recurrent_student_attendance_rate, 2))
+    print(f"\nAchieved recurrent student's weekly attendance rate: {round(recurrent_student_attendance_rate, 2)}%")
 
 def main():
 
