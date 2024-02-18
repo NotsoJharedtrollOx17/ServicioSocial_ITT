@@ -1,10 +1,8 @@
 import utils
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import ticker
 
-# TODO WRITE HISTOGRAM FOR START AND FINISH TIME
 def getTimeSeriesAttendanceNumbers(df_csv):
     FILE_NAME = "00_timeseries_asistencia_por_dia"
     file_path = f"{utils.getResultsFilePath()}{FILE_NAME}"
@@ -166,6 +164,57 @@ def getHorizontalBarGraphAttendancePerTopHourSpans(df_csv):
 
     print(f"GRAFICA {file_path} realizada con éxito!")
 
+def getHorizontalBarGraphAttendancePerTopUniqueStudents(df_csv):
+    colors = ["#0AFF0A",
+              "#03bb0a",
+              "#03bb0a",
+              "#03bb0a",
+              "#027a07",
+              "#024002",
+              ] # * greenish color gradient
+
+    FILE_NAME = "03_horizontalbar_asistencia_top6_estudiantes"
+    file_path = f"{utils.getResultsFilePath()}{FILE_NAME}"
+
+    # Group the DataFrame by the "matricula" column and calculate the sum of attendance counts for each group
+    attendance_by_matricula = df_csv.groupby('matricula').size().reset_index(name="attendance_count")
+
+    # Sort the DataFrame based on the "attendance_count" column in descending order
+    top_attendance_records = attendance_by_matricula.sort_values(by='attendance_count', ascending=False).head(6)
+    top_attendance_records = top_attendance_records.sort_values(by='attendance_count', ascending=True)
+
+    # setting color
+    top_attendance_records['color'] = [colors[i] for i in range(len(colors))]
+    
+    # masking the 'matricula' values
+    top_attendance_records['matricula'] = [f"000{i}" for i in range(len(colors))]
+
+    # reordering for better formatting of the graph
+    top_attendance_records = top_attendance_records.sort_values(by='attendance_count', ascending=False)
+
+    fig, axes = plt.subplots(figsize=utils.getPlotSize(), dpi=utils.getDpiScale())
+    
+    # Optionally, set additional properties such as grid lines
+    axes.grid(True, linestyle='--', zorder=1)
+
+    # Create horizontal bar graph
+    axes.barh(top_attendance_records['matricula'], top_attendance_records['attendance_count'], 
+              color=top_attendance_records['color'], height=0.5, zorder=2)
+
+    # Set labels and title
+    axes.xaxis.set_major_locator(ticker.MaxNLocator(integer=True)) # * Forzar la escala vertical a números enteros
+    axes.xaxis.set_tick_params(labelsize=8)
+    axes.yaxis.set_tick_params(labelsize=8)
+    axes.set_xlabel('Attendance Count', fontsize=11)
+    axes.set_ylabel('Student ID (masked)', fontsize=11)
+    axes.set_title('Top 6 Unique Students\' Attendance', fontsize=12)
+
+    # Show the plot
+    plt.savefig(file_path)
+    plt.close()
+
+    print(f"GRAFICA {file_path} realizada con éxito!")
+
 def main():
     
     # carga del CSV como dataframe
@@ -174,9 +223,10 @@ def main():
     # agregar fondo transparente a las gráficas
     utils.setTransparentPlots(True)
 
-    #getTimeSeriesAttendanceNumbers(df_csv)
-    #getHorizontalBarGraphAttendancePerDayOfWeek(df_csv)
+    getTimeSeriesAttendanceNumbers(df_csv)
+    getHorizontalBarGraphAttendancePerDayOfWeek(df_csv)
     getHorizontalBarGraphAttendancePerTopHourSpans(df_csv)
+    getHorizontalBarGraphAttendancePerTopUniqueStudents(df_csv)
 
 if __name__ == '__main__':
     main()

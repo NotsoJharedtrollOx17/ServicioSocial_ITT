@@ -11,7 +11,7 @@ def getAttendanceNumbersPerStartAndFinishTime(df_csv):
     # Sorting the dataframe in ascending order of 'combined_time'
     attendance_by_time.sort_values(by='combined_time', ascending=True, inplace=True)
 
- # Filter for attendance values greater than 2
+    # Filter for attendance values greater than 2
     attendance_by_time_filtered = attendance_by_time[attendance_by_time['attendance_count'] > 2]
 
     # Display the result
@@ -103,14 +103,46 @@ def getAttendanceRateByWeekRecurrentStudents(df_csv):
     # Calculate the recurrent student's weekly attendance rate
     recurrent_student_attendance_rate = (unique_recurrent_students / unique_total_students) * 100
 
-    print(f"\nAchieved recurrent student's weekly attendance rate: {round(recurrent_student_attendance_rate, 2)}%")
+    print(f"\nAchieved recurrent student's weekly attendance rate of: {round(recurrent_student_attendance_rate, 0)}%")
+
+def getAttendanceRateByStartAndFinishTime(df_csv):
+# Concatenate 'hora_inicio' and 'hora_fin' columns
+    df_csv['combined_time'] = df_csv['hora_inicio'] + ' - ' + df_csv['hora_fin']
+    
+    # Grouping the dataframe by "combined_time"
+    attendance_by_time = df_csv.groupby('combined_time').size().reset_index(name='attendance_count')
+    
+    # Sorting the dataframe in ascending order of 'combined_time'
+    attendance_by_time.sort_values(by='combined_time', ascending=True, inplace=True)
+
+    # Filter for attendance values greater than 2
+    attendance_by_time_filtered = attendance_by_time[attendance_by_time['attendance_count'] > 2]
+
+    # Aggregate all counts for the filtered attendendance time spans
+    total_attendance_by_time_filtered = attendance_by_time_filtered['attendance_count'].sum()
+
+    # Count the number of total students
+    total_students = df_csv.shape[0]
+
+    # Calculate the recurrent student's weekly attendance rate
+    top_attendance_by_time_rate = (total_attendance_by_time_filtered / total_students) * 100
+
+    print(f"\nAchieved TOP 6 Time Spans' attendance rate of: {round(top_attendance_by_time_rate, 0)}%")
+
+def getTotalUniqueStudents(df_csv):
+    # Count the number of unique total students
+    total_unique_students = df_csv['matricula'].nunique()
+
+    print(f"\nAchieved attendance total of: {total_unique_students} unique students!")
 
 def main():
 
     # * Loads dataset
     df_csv = getDatasetDataframe()
 
+    getTotalUniqueStudents(df_csv)
     getAttendanceRateByWeekRecurrentStudents(df_csv)
+    getAttendanceRateByStartAndFinishTime(df_csv)
     getAttendanceNumbersPerDayOfTheWeek(df_csv)
     getAttendanceNumbersPerMatricula(df_csv)
     getAttendanceNumbersPerStartTime(df_csv)
