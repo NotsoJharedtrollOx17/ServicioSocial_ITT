@@ -9,24 +9,24 @@ lorem ipsum dolor
 
 lorem ipsum dolor
 
-# License
+# Licencia
 
 MIT License
 
-# Acknowledgement of AI Usage
+# Reconocimento de uso de IA
 
 lorem ipsum dolor
 
-# Citation
+# Cita Bibliográfica
 
 ```
 @misc{
     flores2024serviciosocialitt,
-    title = {Partial Replication of Anthropic's Emotion Vectors using Gemma 4 E2B and GPT 2 Medium inside a Google Colab T4 Notebook},
+    title = {Reporte Final del Programa de Asesorías Academicas en la Facultad de Ciencias Químicas e Ingeniería de la Universidad Autónoma de Baja California},
     author = {Flores A., Abraham J.},
     year = {2024},
     month = {Feb},
     url = {https://github.com/NotsoJharedtrollOx17/ServicioSocial_ITT},
-    note = {This work is a data analysis practice that was not presented with the original report for the required Community Service materials of my undergrad degree.}
+    note = {This work is an extra data analysis practice not presented with the original report for the required Community Service materials of my undergrad degree.}
 }
 ```
