@@ -3,9 +3,13 @@ Código fuente para el análisis de datos de la lista de asistencia de mi Servic
 
 # Autor
 
-lorem ipsum dolor
+- Abraham Jhared Flores Azcona _(NotsoJharedtrollOx17)_  ``abrahamjhared.flores@gmail.com``
 
 # Resumen
+
+lorem ipsum dolor
+
+## Abstract
 
 lorem ipsum dolor
 
@@ -13,7 +17,7 @@ lorem ipsum dolor
 
 MIT License
 
-# Reconocimento de uso de IA
+# Reconocimiento de uso de IA
 
 lorem ipsum dolor
 
