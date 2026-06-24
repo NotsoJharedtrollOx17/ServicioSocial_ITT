@@ -8,7 +8,7 @@ def getDatasetDataframe():
     return pd.read_csv(ATTENDANCE_DATA_CSV_FILENAME)
 
 def getResultsFilePath():
-    return "../results/"
+    return "../results/plots/"
 
 def getPlotSize():
     return (10, 6)
