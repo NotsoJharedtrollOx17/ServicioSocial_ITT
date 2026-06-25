@@ -35,7 +35,13 @@ Correspondiente al ámbito interpersonal, el entablar conversación con la gran 
 
 # Conclusiones
 
-lorem ipsum dolor
+Mi experiencia como asesor académico en el marco de mi Servicio Social para el Instituto Tecnológico de Tijuana ha sido enriquecedora y gratificante. Durante este periodo, he abordado tanto el aspecto profesional como personal de esta labor con profunda dedicación.
+
+En el ámbito profesional, reafirmo que esta posición se alinea perfectamente con la noción de servicio social. La función esencial de un asesor académico es guiar a los estudiantes, compartiendo conocimientos y experiencias adquiridos durante la propia trayectoria educativa. El haber elegido impartir asesorías en materias como _Cálculo Diferencial_ ha demostrado ser una desición pertinente y acertada debido al flujo constante de estudiantes en busca de apoyo en dicha materia.
+
+Las diferencias en actitudes entre las asesorías individuales y grupales son notables. Las asesorías grupales, acorde a mi percepción y mi juicio, generan un sentido de pertenencia y colaboración. Esto sucede especialmente cuando los estudiantes comparten profesores o grupos. Por otro lado, las asesorías individuales pueden revelar la retención de asistencia de dichos individuos como se observó a lo largo de mis funciones para casos de presión por carga académica o dificultades previas con la materia asesorada.
+
+En general, esta etapa resulto ser fructífera para la comunidad estudiantil de la UABC por la afluencia de asistencia de los asesorados. Esto mismo ha fortalicedo mi pasión de servitúd pública y compartir conocimiento, lo que ha representado una puerta hacia un enriquecimiento personal y profesional. En un futuro, estoy convencido que fungir como profesor universitario es una excelente opción como una posible carrera profesional.
 
 # Recomendaciones
 
