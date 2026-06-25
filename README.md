@@ -13,6 +13,26 @@ lorem ipsum dolor
 
 lorem ipsum dolor
 
+# Introducción
+
+lorem ipsum dolor
+
+# Desarrollo de Actividades
+
+lorem ipsum dolor
+
+# Resultados
+
+lorem ipsum dolor
+
+# Conclusiones
+
+lorem ipsum dolor
+
+# Recomendaciones
+
+lorem ipsum dolor
+
 # Licencia
 
 MIT License
