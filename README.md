@@ -59,7 +59,9 @@ MIT License
 
 # Reconocimiento de uso de IA
 
-lorem ipsum dolor
+Se declara que ChatGPT<sup>1</sup> fue utilizado para apoyar el análisis, intepretación, y desarrollo del código para el pipeline de datos que generó las gráficas provistas en el reporte.
+
+> <sup>1</sup> Conversación completa disponible en [`./ai-conversation/ServicioSocial-Data-Analysis`](./ai-converation/ServicioSocial-Data-Analysis.md). El inicio del respaldo indica que se extrajo desde Gemini ya que exporté la conversación original hacia Gemini.
 
 # Cita Bibliográfica
 
