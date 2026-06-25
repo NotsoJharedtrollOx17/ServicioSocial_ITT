@@ -67,7 +67,7 @@ lorem ipsum dolor
 @misc{
     flores2024serviciosocialitt,
     title = {Reporte Final del Programa de Asesorías Academicas en la Facultad de Ciencias Químicas e Ingeniería de la Universidad Autónoma de Baja California},
-    author = {Flores A., Abraham J.},
+    author = {Flores-Azcona, Abraham Jhared},
     year = {2024},
     month = {Feb},
     url = {https://github.com/NotsoJharedtrollOx17/ServicioSocial_ITT},
