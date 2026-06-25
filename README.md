@@ -25,7 +25,13 @@ Detallando cada una de las actividades complementarias: (1) consiste en explicar
 
 # Resultados
 
-lorem ipsum dolor
+La labor de asesor académico en los horarios que presentaba tanto en la segunda mitad del semestre FEB-AGO 2023 como en la primera mitad del semestre AGO-DIC 2023 indicó bastante interés por parte de los alumnos interesados en las materias que solicité asesorar, las cuales fueron _Calculo Diferencial, y Programación y Métodos Numéricos_.
+
+La mayor incidencia de asesorados se presentó rotundamente para la materia de _Cálculo Diferencial_, donde la gran mayoría de los asesorados presentaban clases con el mismo profesor. El detalle anterior facilitó bastante el seguimiento general de sus avances y percances con la materia asesorada.
+
+En mi caso particular, las hojas de asistencia utilizadas para recabar los datos sobre la afluencia de los estudiantes a estas asesorías se llenaban cada 3 días por semana. Esta afluencia fue decreciendo a lo largo del periodo de mis funciones.
+
+Correspondiente al ámbito interpersonal, el entablar conversación con la gran mayoría de mis compañeros asesores propició un ambiente de compañerismo y camaradería. A su vez, ésto mismo nos permitió entablar intercambios de ideas e interéses tanto académicos como personales, y esto mismo nos motivó en seguir cooperando en nuestras respectivas labores.
 
 # Conclusiones
 
