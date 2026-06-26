@@ -1,5 +1,7 @@
 # ServicioSocial_ITT
-Código fuente para el análisis de datos de la lista de asistencia de mi Servicio Social realizado en el Programa de Asesorías Académicas de la UABC Campus Otay durante el periodo de Febrero 2023 hasta Agosto 2023.
+Código fuente para el análisis de datos de la lista de asistencia de mi Servicio Social realizado en el Programa de Asesorías Académicas de la UABC Campus Otay durante el periodo de Febrero 2023 hasta Agosto 2023<sup>1</sup>.
+
+> <sup>1</sup> Full English translation available at [`./results/english-translation/README.md`](./results/english-translation/README.md)
 
 # Autor
 
