@@ -5,9 +5,9 @@ Código fuente para el análisis de datos de la lista de asistencia de mi Servic
 
 - Abraham Jhared Flores Azcona _(NotsoJharedtrollOx17)_  ``abrahamjhared.flores@gmail.com``
 
-## Abstract
+# Abstract
 
-lorem ipsum dolor
+Brief report regarding my duties as an academic tutor of the Programa de Asesorías Académicas (Academic Tutorship Program) of UABC Otay Campus. We describe the main activities of the role, as well as the collected results coming from my observations, professional judgements, and data plots about the affluent student attendance during the position. We noticed that around 50 students attended the tutorships to receive support with the subject of _Differential Calculus_. With the previous result, it is imperative to tutor that particular subject to satisfy its demand and to strengthen the skills of the students. Consequently, the recommendations to the program are to (1) accommodate the demand with work groups, (2) manage relevant vocabulary to the class, and (3) train the tutors to know how to deal with students that tend to have cognitive blocks.
 
 # Introduction
 
