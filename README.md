@@ -35,6 +35,22 @@ En mi caso particular, las hojas de asistencia utilizadas para recabar los datos
 
 Correspondiente al ámbito interpersonal, el entablar conversación con la gran mayoría de mis compañeros asesores propició un ambiente de compañerismo y camaradería. A su vez, ésto mismo nos permitió entablar intercambios de ideas e interéses tanto académicos como personales, y esto mismo nos motivó en seguir cooperando en nuestras respectivas labores.
 
+<img src="./results/plots/00_timeseries_asistencia_por_dia.png" alt="lorem ipsum dolor" width="800" height="500"/>
+
+**Figure 1.** Attendance Over Time from February 3rd, 2023 to October 20, 2023.
+
+<img src="./results/plots/01_horizontalbar_asistencia_por_dia_semana.png" alt="lorem ipsum dolor" width="800" height="500"/>
+
+**Figure 2.** Attendance by Day of the Week.
+
+<img src="./results/plots/02_horizontalbar_asistencia_top6_horarios.png" alt="lorem ipsum dolor" width="800" height="500"/>
+
+**Figure 3.** Top 6 Attendance Peak Hours. 
+
+<img src="./results/plots/03_horizontalbar_asistencia_top6_estudiantes.png" alt="lorem ipsum dolor" width="800" height="500"/>
+
+**Figure 4.** Top 6 Attendance Numbers from Unique Students.
+
 # Conclusiones
 
 Mi experiencia como asesor académico en el marco de mi Servicio Social para el Instituto Tecnológico de Tijuana ha sido enriquecedora y gratificante. Durante este periodo, he abordado tanto el aspecto profesional como personal de esta labor con profunda dedicación.
