@@ -1,0 +1,74 @@
+# ServicioSocial_ITT
+Código fuente para el análisis de datos de la lista de asistencia de mi Servicio Social realizado en el Programa de Asesorías Académicas de la UABC Campus Otay durante el periodo de Febrero 2023 hasta Agosto 2023<sup>1</sup>.
+
+# Author
+
+- Abraham Jhared Flores Azcona _(NotsoJharedtrollOx17)_  ``abrahamjhared.flores@gmail.com``
+
+## Abstract
+
+lorem ipsum dolor
+
+# Introduction
+
+En el marco de mi compromiso con el desarrollo educativo y la contribución a la comunidad académica, he tenido el privilegio de desempeñar el papel de asesor académico en la Universidad Autónoma de Baja California (UABC). A través de este informe, comparto mi experiencia en esta labor, centrándome en las acividades realizadas, los resultados obtenidos y las recomnedaciones propuestas. Este informe, desarrollado en la colaboración con el Instituto Tecnológico de Tijuana (ITT), constituye un paso crucial para la acreditación plena de mi servicio social.
+
+# Activity Development
+
+Debido a que mi posición solicitada en la institución es la de asesor académico, el objetivo general de mis activdades era el de _asesorar a los estudiantes de ingeniería en sus actividades académicas_. Las otras actividades relacionadas eran: (1) impartir asesorías académicas en el área de matemáticas y química, (2) realizar talleres de estudio en las áreas de matemáticas y química, (3) coordinar a los grupos de estudio en las áreas de matemáticas y química, (4) asistir al programa de asesorías de acuerdo al horario programado, (5) entrega del reporte trimestral de actividades, y (6) entrega del informa final de actividades.
+
+Detallando cada una de las actividades complementarias: (1) consiste en explicar los temas solicitados con mayor detalle acorde al nivel del asesorado quien me lo solicitaba con previa cita, (2) es la extensión grupal de lo explicado para (1), (3) trata de tomar el liderazgo durante la explicación y realización de ejercicios que se me solicitaran durante la clase grupal, (4) es respecto al ser profesional y atender el llamado del deber en los tiempos y horarios establecidos por la supervisora de las asesorías académicas y aquellas citas que hubiese agendado con antelación al alumnado de la institución, y finalmente, (5) y (6) consisten en el seguimiento de mis horas efectivas con los reportes que el Instituto Tecnológico de Tijuana solicita para validar el cumplimiento efectivo de mi servicio social y la redacción de este reporte.
+
+# Results
+
+La labor de asesor académico en los horarios que presentaba tanto en la segunda mitad del semestre FEB-AGO 2023 como en la primera mitad del semestre AGO-DIC 2023 indicó bastante interés por parte de los alumnos interesados en las materias que solicité asesorar, las cuales fueron _Calculo Diferencial, y Programación y Métodos Numéricos_.
+
+La mayor incidencia de asesorados se presentó rotundamente para la materia de _Cálculo Diferencial_, donde la gran mayoría de los asesorados presentaban clases con el mismo profesor. El detalle anterior facilitó bastante el seguimiento general de sus avances y percances con la materia asesorada.
+
+En mi caso particular, las hojas de asistencia utilizadas para recabar los datos sobre la afluencia de los estudiantes a estas asesorías se llenaban cada 3 días por semana. Esta afluencia fue decreciendo a lo largo del periodo de mis funciones.
+
+Correspondiente al ámbito interpersonal, el entablar conversación con la gran mayoría de mis compañeros asesores propició un ambiente de compañerismo y camaradería. A su vez, ésto mismo nos permitió entablar intercambios de ideas e interéses tanto académicos como personales, y esto mismo nos motivó en seguir cooperando en nuestras respectivas labores.
+
+# Conclusions
+
+Mi experiencia como asesor académico en el marco de mi Servicio Social para el Instituto Tecnológico de Tijuana ha sido enriquecedora y gratificante. Durante este periodo, he abordado tanto el aspecto profesional como personal de esta labor con profunda dedicación.
+
+En el ámbito profesional, reafirmo que esta posición se alinea perfectamente con la noción de servicio social. La función esencial de un asesor académico es guiar a los estudiantes, compartiendo conocimientos y experiencias adquiridos durante la propia trayectoria educativa. El haber elegido impartir asesorías en materias como _Cálculo Diferencial_ ha demostrado ser una desición pertinente y acertada debido al flujo constante de estudiantes en busca de apoyo en dicha materia.
+
+Las diferencias en actitudes entre las asesorías individuales y grupales son notables. Las asesorías grupales, acorde a mi percepción y mi juicio, generan un sentido de pertenencia y colaboración. Esto sucede especialmente cuando los estudiantes comparten profesores o grupos. Por otro lado, las asesorías individuales pueden revelar la retención de asistencia de dichos individuos como se observó a lo largo de mis funciones para casos de presión por carga académica o dificultades previas con la materia asesorada.
+
+En general, esta etapa resulto ser fructífera para la comunidad estudiantil de la UABC por la afluencia de asistencia de los asesorados. Esto mismo ha fortalicedo mi pasión de servitúd pública y compartir conocimiento, lo que ha representado una puerta hacia un enriquecimiento personal y profesional. En un futuro, estoy convencido que fungir como profesor universitario es una excelente opción como una posible carrera profesional.
+
+# Recommendations
+
+Basándome en mi experiencia en el servicio social como asesor académico en la Universidad Autónoma de Baja California (UABC), he identificado una serie de áreas de mejora que podrían enriquecer y optimizar la experiencia de asesoría para futuros asesores y asesorados. Si bien reconozco que cada contexto personal de los asesorados y cada materia pueden requerir ajustes específicos, estas sugerencias se derivan de mi participación activa en dicho entorno educativo. A continuación, presento tres recomendaciones que se pueden considerar para mejorar la efectivad y calidad del programa de asesorías:
+
+1. _Enfoque Mixto para Asesorías Individuales y Grupales:_ Para abordar la diferencia en actitudes entre asesorías individuales y grupales, podrían considerarse un enfoque mixto de asesoramiento. En este caso, sería sensato implementar una combinación de sesiones indivuales y grupales para atender las distintas necesidades de los estudiantes, y a su vez, propiciar un ambiente de resolución de problemas colaborativo para todos los involucrados.
+2. _Promoción de Vocabulario Esencial por Materia Asesorada:_ Dado que la nomenclatura de cada materia es un desafío común, se podría ofreces material adicional que aclare dicho vocabulario técnico esencial. Esto puede beneficiar a los estudiantes al familiarizarse con los términos necesarios para comprender mejor los conceptos, y a su vez, para que puedan formular preguntas más precisas que puedan resolverse con premicia.
+3. _Entrenamiento Especial para Asesores:_ Brindar orientación y entrenamiento específico a los asesores respecto al cómo manejar situaciones con estudiantes que presentan bloqueos cognitivos por las dificultades de la materia asesorada. Es imperativo apoyar a los asesores para abordar dichos casos excepcionales de manera más empática y efectivo para todos los involucrados.
+
+Estas recomendaciones están destinadas a enriquecer el programa de asesorías y a mejorar la experiencia tanto para los asesores como para los asesorados. La combinación de estrategias personalizadas, acceso a recursos adicionales, y un enfoque inerentemente colaborativo, pueden contribuir al crecimiento continuo y al éxito de esta iniciativa académica. Sin embargo, he de reconocer el hecho de que cada asesor tendrá la última palabra en cuanto a la metodología de las asesorías a impartir.
+
+# License
+
+MIT License
+
+# Acknowledgement of AI Usage
+
+Se declara que ChatGPT<sup>1</sup> fue utilizado para apoyar el análisis, intepretación, y desarrollo del código para el pipeline de datos que generó las gráficas provistas en el reporte.
+
+> <sup>1</sup> Conversación completa disponible en [`./ai-conversation/ServicioSocial-Data-Analysis`](./ai-converation/ServicioSocial-Data-Analysis.md). El inicio del respaldo indica que se extrajo desde Gemini ya que exporté la conversación original hacia Gemini.
+
+# Citation
+
+```
+@misc{
+    flores2024serviciosocialitt,
+    title = {Reporte Final del Programa de Asesorías Academicas en la Facultad de Ciencias Químicas e Ingeniería de la Universidad Autónoma de Baja California},
+    author = {Flores-Azcona, Abraham Jhared},
+    year = {2024},
+    month = {Feb},
+    url = {https://github.com/NotsoJharedtrollOx17/ServicioSocial_ITT},
+    note = {This work is an extra data analysis practice not presented with the original report for the required Community Service materials of my undergrad degree.}
+}
+```
