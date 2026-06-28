@@ -11,7 +11,7 @@ Brief report regarding my duties as an academic tutor of the Programa de Asesor�
 
 # Introduction
 
-On the frame of my compromise with academic development and the contribution to the academic community, I had the privilege to develop the role of academit tutor in the Universidad Autónoma de Baja California (UABC). Through this report, I share my experience with this duty, focusing on the activities performed, the results obtained and the recommendations proposed. This report, written in collaboration with the Instituto Tecnológico de Tijuana (ITT), comprises a crucial material for the accreditation of my Community Service.
+On the frame of my compromise with academic development and the contribution to the academic community, I had the privilege to develop the role of academic tutor in the Universidad Autónoma de Baja California (UABC). Through this report, I share my experience with this duty, focusing on the activities performed, the results obtained and the recommendations proposed. This report, written in collaboration with the Instituto Tecnológico de Tijuana (ITT), comprises a crucial material for the accreditation of my Community Service.
 
 # Activity Development
 
