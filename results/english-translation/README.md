@@ -21,19 +21,39 @@ Detallando cada una de las actividades complementarias: (1) consiste en explicar
 
 # Results
 
-La labor de asesor académico en los horarios que presentaba tanto en la segunda mitad del semestre FEB-AGO 2023 como en la primera mitad del semestre AGO-DIC 2023 indicó bastante interés por parte de los alumnos interesados en las materias que solicité asesorar, las cuales fueron _Calculo Diferencial, y Programación y Métodos Numéricos_.
+La labor de asesor académico en los horarios que presentaba tanto en la segunda mitad del semestre FEB-AGO 2023 como en la primera mitad del semestre AGO-DIC 2023 indicó bastante interés por parte de los alumnos interesados en las materias que solicité asesorar, las cuales fueron _Calculo Diferencial, y Programación y Métodos Numéricos_. En total, se registró la asistencia de 62 estudiantes particulares. De estos mismos estudiantes, registramos un conteo de asistencias totales de 288 asistencias. En la Figura 1 se puede apreciar los picos de asistencia a lo largo del periodo de las funciones. Dichos picos desde 10 hasta 14 asistencias registradas eran recurrentes en las épocas de evaluación escolar.
 
 La mayor incidencia de asesorados se presentó rotundamente para la materia de _Cálculo Diferencial_, donde la gran mayoría de los asesorados presentaban clases con el mismo profesor. El detalle anterior facilitó bastante el seguimiento general de sus avances y percances con la materia asesorada.
 
-En mi caso particular, las hojas de asistencia utilizadas para recabar los datos sobre la afluencia de los estudiantes a estas asesorías se llenaban cada 3 días por semana. Esta afluencia fue decreciendo a lo largo del periodo de mis funciones.
+En mi caso particular, las hojas de asistencia utilizadas para recabar los datos sobre la afluencia de los estudiantes a estas asesorías se llenaban cada 3 días por semana. Usualmente, los miercoles y jueves registraba mayor afluencia estudiantil, que se aprecia por los conteos totales de la Figura 2. Esto mismo propició que tuviera alrededor de 60% de recurrencia semanal de asistencias de estudiantes, que indíca que esos días de la semana son los de mayor disponibilidad estudiantil. Dicha afluencia fue decreciendo a lo largo del periodo de mis funciones.
 
-Correspondiente al ámbito interpersonal, el entablar conversación con la gran mayoría de mis compañeros asesores propició un ambiente de compañerismo y camaradería. A su vez, ésto mismo nos permitió entablar intercambios de ideas e interéses tanto académicos como personales, y esto mismo nos motivó en seguir cooperando en nuestras respectivas labores.
+De manera similar al párrafo anterior, fue usual el recibir a los estudiantes durante los horarios de 10:00 PST hasta las 12:00 PST, y desde las 12PM hasta las 13:00 PST [Figura 3]. Otros rangos de horarios se intersectan a los dos previamente mencionados. En general, los mismos alumnos atendidos mencionaban que tenian disponibilidad de horario por estar condicionados a aprobar la materia de _Cálculo Diferencial_. Dicha característica los obliga a cursar solo tres materias, incluida la susodicha materia reprobada, con la intención de que tengan tiempo suficiente para saldar dicho crédito curricular. 
+
+Finalmente, un patrón muy peculiar se logró apreciar con 6 estudiantes. 5 de ellos asistian alrededor de 10 veces, mientras que uno de ellos (0005) registró una incidencia de 36 asistencias a lo largo de mis labores como asesor [Figura 4]. Puedo asumir que aprobar dicha materia para ese estudiante era tan crucial para haber asistido 36 veces a las asesorías ofertadas durante los horarios establecidos.
+
+<img src="./results/plots/00_timeseries_asistencia_por_dia.png" alt="lorem ipsum dolor" width="800" height="500"/>
+
+**Figura 1.** Asistencia a Travéz del Tiempo desde Febrero 3, 2023 hasta Octubre 20, 2023. 
+
+<img src="./results/plots/01_horizontalbar_asistencia_por_dia_semana.png" alt="lorem ipsum dolor" width="800" height="500"/>
+
+**Figura 2.** Asistencia por Día de la Semana. _Nota_: se excluyen Sabado y Domingo por no impartirse asesorias en dichos dias.
+
+<img src="./results/plots/02_horizontalbar_asistencia_top6_horarios.png" alt="lorem ipsum dolor" width="800" height="500"/>
+
+**Figura 3.** Top 6 de Horarios Pico de Asistencia. 
+
+<img src="./results/plots/03_horizontalbar_asistencia_top6_estudiantes.png" alt="lorem ipsum dolor" width="800" height="500"/>
+
+**Figura 4.** Top 6 de Conteos de Asistencia de Estudiantes Individuales.
 
 # Conclusions
 
 Mi experiencia como asesor académico en el marco de mi Servicio Social para el Instituto Tecnológico de Tijuana ha sido enriquecedora y gratificante. Durante este periodo, he abordado tanto el aspecto profesional como personal de esta labor con profunda dedicación.
 
 En el ámbito profesional, reafirmo que esta posición se alinea perfectamente con la noción de servicio social. La función esencial de un asesor académico es guiar a los estudiantes, compartiendo conocimientos y experiencias adquiridos durante la propia trayectoria educativa. El haber elegido impartir asesorías en materias como _Cálculo Diferencial_ ha demostrado ser una desición pertinente y acertada debido al flujo constante de estudiantes en busca de apoyo en dicha materia.
+
+Correspondiente al ámbito interpersonal, el entablar conversación con la gran mayoría de mis compañeros asesores propició un ambiente de compañerismo y camaradería. A su vez, ésto mismo nos permitió entablar intercambios de ideas e interéses tanto académicos como personales, y esto mismo nos motivó en seguir cooperando en nuestras respectivas labores.
 
 Las diferencias en actitudes entre las asesorías individuales y grupales son notables. Las asesorías grupales, acorde a mi percepción y mi juicio, generan un sentido de pertenencia y colaboración. Esto sucede especialmente cuando los estudiantes comparten profesores o grupos. Por otro lado, las asesorías individuales pueden revelar la retención de asistencia de dichos individuos como se observó a lo largo de mis funciones para casos de presión por carga académica o dificultades previas con la materia asesorada.
 
