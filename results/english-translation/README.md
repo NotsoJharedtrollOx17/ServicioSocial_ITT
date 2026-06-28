@@ -49,15 +49,15 @@ Finally, a very peculiar pattern was appreciated with 6 students. 5 of them atte
 
 # Conclusions
 
-Mi experiencia como asesor académico en el marco de mi Servicio Social para el Instituto Tecnológico de Tijuana ha sido enriquecedora y gratificante. Durante este periodo, he abordado tanto el aspecto profesional como personal de esta labor con profunda dedicación.
+My experience as an academic tutor during my Community Service for the Instituto Tecnológico de Tijuana has been enriching and gratifying. During this period, I have dealt with the professional matter, as well as the personal matter of this job with profound dedication.
 
-En el ámbito profesional, reafirmo que esta posición se alinea perfectamente con la noción de servicio social. La función esencial de un asesor académico es guiar a los estudiantes, compartiendo conocimientos y experiencias adquiridos durante la propia trayectoria educativa. El haber elegido impartir asesorías en materias como _Cálculo Diferencial_ ha demostrado ser una desición pertinente y acertada debido al flujo constante de estudiantes en busca de apoyo en dicha materia.
+On the professional matter, I reaffirm that this position aligns perfectly with the notion of community service proper. The essential function of an academic tutor is to guide students by sharing acquired knowledge and experiences throughout one's own educational path. Having selected the option to tutor classes such as _Differential Calculus_ has demonstrated to be a pertinent and precise decision due the constant flux of students searching for help and support on said class.
 
-Correspondiente al ámbito interpersonal, el entablar conversación con la gran mayoría de mis compañeros asesores propició un ambiente de compañerismo y camaradería. A su vez, ésto mismo nos permitió entablar intercambios de ideas e interéses tanto académicos como personales, y esto mismo nos motivó en seguir cooperando en nuestras respectivas labores.
+With regards to interpersonal matters, having established rapport and conversation with the vast majority of my tutor colleagues promoted a culture of camaraderie. At the same time, this allowed us an established exchange of ideas and interests of academic and personal kind, which further motivated us to cooperate further in our duties.
 
-Las diferencias en actitudes entre las asesorías individuales y grupales son notables. Las asesorías grupales, acorde a mi percepción y mi juicio, generan un sentido de pertenencia y colaboración. Esto sucede especialmente cuando los estudiantes comparten profesores o grupos. Por otro lado, las asesorías individuales pueden revelar la retención de asistencia de dichos individuos como se observó a lo largo de mis funciones para casos de presión por carga académica o dificultades previas con la materia asesorada.
+The attitude differences between individual and group sessions are noticeable. Group sessions, according to my perception and judgement, generate a sense of collaboration and belonging. This especially happens when the students share professors or class groups. On the other hand, individual sessions can reveal the attendance trends of said individuals, as observed throughout my responsibilities, for cases of severe academic pressure or previous difficulties with the subject matter.
 
-En general, esta etapa resulto ser fructífera para la comunidad estudiantil de la UABC por la afluencia de asistencia de los asesorados. Esto mismo ha fortalicedo mi pasión de servitúd pública y compartir conocimiento, lo que ha representado una puerta hacia un enriquecimiento personal y profesional. En un futuro, estoy convencido que fungir como profesor universitario es una excelente opción como una posible carrera profesional.
+Overall, this period was fruitful for the student community of UABC due the affluent attendance of the students. This reinforced my passion for public servitude and knowledge sharing, which represents a new avenue towards personal and professional growth. For the foreseeable future, I'm convinced that becoming a University Professor is an excellent option for my professional career.
 
 # Recommendations
 
