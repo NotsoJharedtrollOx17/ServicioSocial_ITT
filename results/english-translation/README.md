@@ -23,7 +23,7 @@ Going into detail with each of the supplementary activities listed: (1) consists
 
 The academic tutorship labour within my schedule from the second half of Spring 2023 until the first half of Fall 2023 indicated a substantial interest from the students in the subjects I tutored, which were _Differential Calculus, and Numerical Analysis_. In total, 62 individual students registered attendance. From the same students, it was registered a total attendance count of 288 attendances. In Figure 1 we appreciate the attendance peaks throughout the timespan of my duties. Said spikes from 10 to 14 registered attendances were recurrent during midterms and finals.
 
-The vast amount of registered attendances where overall found in the subject matter of _Differential Calculus_, were the vast majority of the students had lectures with the same professor. This detail assisted greatly with the supervision of their progress and shortcomings with the class.
+The vast amount of registered attendances where overall found in the subject matter of _Differential Calculus_, where the vast majority of the students had lectures with the same professor. This detail assisted greatly with the supervision of their progress and shortcomings with the class.
 
 In my particular case, the attendance record sheets utilized to collect the students' data were completely filled every 3 days per week. Usually, Wednesdays and Thursdays registered greater student affluence, which can be appreciated in Figure 2. This fact allowed me to record a recurrent student's weekly rate of 60% per week. This represents the percentage of students that registered an attendance rate of 2 or more days per week. Said trend decreased throughout the duties.
 
