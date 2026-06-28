@@ -21,31 +21,31 @@ Going into detail with each of the supplementary activities listed: (1) consists
 
 # Results
 
-La labor de asesor académico en los horarios que presentaba tanto en la segunda mitad del semestre FEB-AGO 2023 como en la primera mitad del semestre AGO-DIC 2023 indicó bastante interés por parte de los alumnos interesados en las materias que solicité asesorar, las cuales fueron _Calculo Diferencial, y Programación y Métodos Numéricos_. En total, se registró la asistencia de 62 estudiantes particulares. De estos mismos estudiantes, registramos un conteo de asistencias totales de 288 asistencias. En la Figura 1 se puede apreciar los picos de asistencia a lo largo del periodo de las funciones. Dichos picos desde 10 hasta 14 asistencias registradas eran recurrentes en las épocas de evaluación escolar.
+The academic tutorship labour within my schedule from the second half of Spring 2023 until the first half of Fall 2023 indicated a substantial interest from the students in the subjects I tutored, which were _Differential Calculus, and Numerical Analysis_. In total, 62 individual students registered attendance. From the same students, it was registered a total attendance count of 288 attendances. In Figure 1 we appreciate the attendance peaks throughout the timespan of my duties. Said spikes from 10 to 14 registered attendances were recurrent during midterms and finals.
 
-La mayor incidencia de asesorados se presentó rotundamente para la materia de _Cálculo Diferencial_, donde la gran mayoría de los asesorados presentaban clases con el mismo profesor. El detalle anterior facilitó bastante el seguimiento general de sus avances y percances con la materia asesorada.
+The vast amount of registered attendances where overall found in the subject matter of _Differential Calculus_, were the vast majority of the students had lectures with the same professor. This detail assisted greatly with the supervision of their progress and shortcomings with the class.
 
-En mi caso particular, las hojas de asistencia utilizadas para recabar los datos sobre la afluencia de los estudiantes a estas asesorías se llenaban cada 3 días por semana. Usualmente, los miercoles y jueves registraba mayor afluencia estudiantil, que se aprecia por los conteos totales de la Figura 2. Esto mismo propició que tuviera alrededor de 60% de recurrencia semanal de asistencias de estudiantes, que indíca que esos días de la semana son los de mayor disponibilidad estudiantil. Dicha afluencia fue decreciendo a lo largo del periodo de mis funciones.
+In my particular case, the attendance record sheets utilized to collect the students' data were completely filled every 3 days per week. Usually, Wednesdays and Thursdays registered greater student affluence, which can be appreciated in Figure 2. This fact allowed me to record a recurrent student's weekly rate of 60% per week. This represents the percentage of students that registered an attendance rate of 2 or more days per week. Said trend decreased throughout the duties.
 
-De manera similar al párrafo anterior, fue usual el recibir a los estudiantes durante los horarios de 10:00 PST hasta las 12:00 PST, y desde las 12PM hasta las 13:00 PST [Figura 3]. Otros rangos de horarios se intersectan a los dos previamente mencionados. En general, los mismos alumnos atendidos mencionaban que tenian disponibilidad de horario por estar condicionados a aprobar la materia de _Cálculo Diferencial_. Dicha característica los obliga a cursar solo tres materias, incluida la susodicha materia reprobada, con la intención de que tengan tiempo suficiente para saldar dicho crédito curricular. 
+Similar to the previous paragraph, it was also usual to help students during the hours from 10:00 PST until 12:00 PST, and from 12:00 PM until 13:00 PST [Figure 3]. Other hour ranges intersect with the two ranges previously mentioned. In general, the tutored students mentioned that they had schedule availability due to being conditioned to pass _Differential Calculus_. Said trait forced them to carry only three classes, including the aforementioned failed class, with the intention to provide enough time to satisfy this curriculum debt.
 
-Finalmente, un patrón muy peculiar se logró apreciar con 6 estudiantes. 5 de ellos asistian alrededor de 10 veces, mientras que uno de ellos (0005) registró una incidencia de 36 asistencias a lo largo de mis labores como asesor [Figura 4]. Puedo asumir que aprobar dicha materia para ese estudiante era tan crucial para haber asistido 36 veces a las asesorías ofertadas durante los horarios establecidos.
+Finally, a very peculiar pattern was appreciated with 6 students. 5 of them attended the tutorships around 10 times, while one of them (0005) achieved an attendance record count of 36 [Figura 4]. I can only assume that, for said student, passing the class was so crucial to attend the tutorship sessions 36 times during the position.
 
 <img src="./results/plots/00_timeseries_asistencia_por_dia.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
-**Figura 1.** Asistencia a Travéz del Tiempo desde Febrero 3, 2023 hasta Octubre 20, 2023. 
+**Figure 1.** Attendance Over Time from February 3, 2023 until October 20, 2023.
 
 <img src="./results/plots/01_horizontalbar_asistencia_por_dia_semana.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
-**Figura 2.** Asistencia por Día de la Semana. _Nota_: se excluyen Sabado y Domingo por no impartirse asesorias en dichos dias.
+**Figure 2.** Attendance by Day of the Week. _Note_: we exclude Saturdays and Sundays because we did not work during those days.
 
 <img src="./results/plots/02_horizontalbar_asistencia_top6_horarios.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
-**Figura 3.** Top 6 de Horarios Pico de Asistencia. 
+**Figure 3.** Top 6 Attendance Peak Hours. 
 
 <img src="./results/plots/03_horizontalbar_asistencia_top6_estudiantes.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
-**Figura 4.** Top 6 de Conteos de Asistencia de Estudiantes Individuales.
+**Figure 4.** Top 6 Attendance Records from Unique Students.
 
 # Conclusions
 
