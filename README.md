@@ -37,8 +37,6 @@ De manera similar al párrafo anterior, fue usual el recibir a los estudiantes d
 
 Finalmente, un patrón muy peculiar se logró apreciar con 6 estudiantes. 5 de ellos asistian alrededor de 10 veces, mientras que uno de ellos (0005) registró una incidencia de 36 asistencias a lo largo de mis labores como asesor [Figura 4]. Puedo asumir que aprobar dicha materia para ese estudiante era tan crucial para haber asistido 36 veces a las asesorías ofertadas durante los horarios establecidos.
 
-Correspondiente al ámbito interpersonal, el entablar conversación con la gran mayoría de mis compañeros asesores propició un ambiente de compañerismo y camaradería. A su vez, ésto mismo nos permitió entablar intercambios de ideas e interéses tanto académicos como personales, y esto mismo nos motivó en seguir cooperando en nuestras respectivas labores.
-
 <img src="./results/plots/00_timeseries_asistencia_por_dia.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
 **Figura 1.** Asistencia a Travéz del Tiempo desde Febrero 3, 2023 hasta Octubre 20, 2023. 
@@ -60,6 +58,8 @@ Correspondiente al ámbito interpersonal, el entablar conversación con la gran 
 Mi experiencia como asesor académico en el marco de mi Servicio Social para el Instituto Tecnológico de Tijuana ha sido enriquecedora y gratificante. Durante este periodo, he abordado tanto el aspecto profesional como personal de esta labor con profunda dedicación.
 
 En el ámbito profesional, reafirmo que esta posición se alinea perfectamente con la noción de servicio social. La función esencial de un asesor académico es guiar a los estudiantes, compartiendo conocimientos y experiencias adquiridos durante la propia trayectoria educativa. El haber elegido impartir asesorías en materias como _Cálculo Diferencial_ ha demostrado ser una desición pertinente y acertada debido al flujo constante de estudiantes en busca de apoyo en dicha materia.
+
+Correspondiente al ámbito interpersonal, el entablar conversación con la gran mayoría de mis compañeros asesores propició un ambiente de compañerismo y camaradería. A su vez, ésto mismo nos permitió entablar intercambios de ideas e interéses tanto académicos como personales, y esto mismo nos motivó en seguir cooperando en nuestras respectivas labores.
 
 Las diferencias en actitudes entre las asesorías individuales y grupales son notables. Las asesorías grupales, acorde a mi percepción y mi juicio, generan un sentido de pertenencia y colaboración. Esto sucede especialmente cuando los estudiantes comparten profesores o grupos. Por otro lado, las asesorías individuales pueden revelar la retención de asistencia de dichos individuos como se observó a lo largo de mis funciones para casos de presión por carga académica o dificultades previas con la materia asesorada.
 
