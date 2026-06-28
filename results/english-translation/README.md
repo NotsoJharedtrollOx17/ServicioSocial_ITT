@@ -31,19 +31,19 @@ Similar to the previous paragraph, it was also usual to help students during the
 
 Finally, a very peculiar pattern was appreciated with 6 students. 5 of them attended the tutorships around 10 times, while one of them (0005) achieved an attendance record count of 36 [Figura 4]. I can only assume that, for said student, passing the class was so crucial to attend the tutorship sessions 36 times during the position.
 
-<img src="./results/plots/00_timeseries_asistencia_por_dia.png" alt="lorem ipsum dolor" width="800" height="500"/>
+<img src="../plots/00_timeseries_asistencia_por_dia.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
 **Figure 1.** Attendance Over Time from February 3, 2023 until October 20, 2023.
 
-<img src="./results/plots/01_horizontalbar_asistencia_por_dia_semana.png" alt="lorem ipsum dolor" width="800" height="500"/>
+<img src="../plots/01_horizontalbar_asistencia_por_dia_semana.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
 **Figure 2.** Attendance by Day of the Week. _Note_: we exclude Saturdays and Sundays because we did not work during those days.
 
-<img src="./results/plots/02_horizontalbar_asistencia_top6_horarios.png" alt="lorem ipsum dolor" width="800" height="500"/>
+<img src="../plots/02_horizontalbar_asistencia_top6_horarios.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
 **Figure 3.** Top 6 Attendance Peak Hours. 
 
-<img src="./results/plots/03_horizontalbar_asistencia_top6_estudiantes.png" alt="lorem ipsum dolor" width="800" height="500"/>
+<img src="../plots/03_horizontalbar_asistencia_top6_estudiantes.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
 **Figure 4.** Top 6 Attendance Records from Unique Students.
 
@@ -77,7 +77,7 @@ MIT License
 
 We hereby state that ChatGPT<sup>1</sup> was utilized for the analysis, interpretation, and code development of the data pipeline that generated the provided plots in the report.
 
-> <sup>1</sup> Full conversation available at [`./ai-conversation/ServicioSocial-Data-Analysis`](./ai-converation/ServicioSocial-Data-Analysis.md). The beginning of the backup indicates that it was extracted from Gemini because the original conversation was exported into Gemini.
+> <sup>1</sup> Full conversation available at [`../../ai-conversation/ServicioSocial-Data-Analysis`](../../ai-converation/ServicioSocial-Data-Analysis.md). The beginning of the backup indicates that it was extracted from Gemini because the original conversation was exported into Gemini.
 
 # Citation
 
