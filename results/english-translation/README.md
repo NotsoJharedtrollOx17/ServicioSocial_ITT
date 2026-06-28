@@ -75,9 +75,9 @@ MIT License
 
 # Acknowledgement of AI Usage
 
-Se declara que ChatGPT<sup>1</sup> fue utilizado para apoyar el análisis, intepretación, y desarrollo del código para el pipeline de datos que generó las gráficas provistas en el reporte.
+We hereby state that ChatGPT<sup>1</sup> was utilized for the analysis, interpretation, and code development of the data pipeline that generated the provided plots in the report.
 
-> <sup>1</sup> Conversación completa disponible en [`./ai-conversation/ServicioSocial-Data-Analysis`](./ai-converation/ServicioSocial-Data-Analysis.md). El inicio del respaldo indica que se extrajo desde Gemini ya que exporté la conversación original hacia Gemini.
+> <sup>1</sup> Full conversation available at [`./ai-conversation/ServicioSocial-Data-Analysis`](./ai-converation/ServicioSocial-Data-Analysis.md). The beginning of the backup indicates that it was extracted from Gemini because the original conversation was exported into Gemini.
 
 # Citation
 
