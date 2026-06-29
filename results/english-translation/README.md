@@ -49,9 +49,9 @@ Finally, a very peculiar pattern was appreciated with 6 students. 5 of them atte
 
 # Conclusions
 
-My experience as an academic tutor during my Community Service for the Instituto Tecnológico de Tijuana has been enriching and gratifying. During this period, I have dealt with the professional matter, as well as the personal matter of this job with profound dedication.
+My experience as an academic tutor during my Community Service requirement for the Instituto Tecnológico de Tijuana has been enriching and gratifying. During this period, I have dealt with the professional matter, as well as the personal matter of this job with profound dedication.
 
-On the professional matter, I reaffirm that this position aligns perfectly with the notion of community service proper. The essential function of an academic tutor is to guide students by sharing acquired knowledge and experiences throughout one's own educational path. Having selected the option to tutor classes such as _Differential Calculus_ has demonstrated to be a pertinent and precise decision due the constant flux of students searching for help and support on said class.
+On the professional matter, I reaffirmed that this position aligns perfectly with the notion of community service proper. The essential function of an academic tutor is to guide students by sharing acquired knowledge and experiences throughout one's own educational path. Having selected the option to tutor classes such as _Differential Calculus_ has demonstrated to be a pertinent and precise decision due the constant flux of students searching for help and support on said class.
 
 With regards to interpersonal matters, having established rapport and conversation with the vast majority of my tutor colleagues promoted a culture of camaraderie. At the same time, this allowed us an established exchange of ideas and interests of academic and personal kind, which further motivated us to cooperate further in our duties.
 
