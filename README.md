@@ -17,7 +17,7 @@ Brief report regarding my duties as an academic tutor of the Programa de Asesor�
 
 # Introducción
 
-En el marco de mi compromiso con el desarrollo educativo y la contribución a la comunidad académica, he tenido el privilegio de desempeñar el papel de asesor académico en la Universidad Autónoma de Baja California (UABC). A través de este informe, comparto mi experiencia en esta labor, centrándome en las acividades realizadas, los resultados obtenidos y las recomnedaciones propuestas. Este informe, desarrollado en la colaboración con el Instituto Tecnológico de Tijuana (ITT), constituye un paso crucial para la acreditación plena de mi servicio social.
+En el marco de mi compromiso con el desarrollo educativo y la contribución a la comunidad académica, he tenido el privilegio de desempeñar el papel de asesor académico en la Universidad Autónoma de Baja California (UABC). A través de este informe, comparto mi experiencia en esta labor, centrándome en las actividades realizadas, los resultados obtenidos y las recomendaciones propuestas. Este informe, desarrollado en la colaboración con el Instituto Tecnológico de Tijuana (ITT), constituye un paso crucial para la acreditación plena de mi servicio social.
 
 # Desarrollo de Actividades
 
