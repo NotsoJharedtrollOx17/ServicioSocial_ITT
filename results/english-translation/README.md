@@ -1,5 +1,5 @@
 # ServicioSocial_ITT
-Source code for the data analysis of the attendance list of my Community Service done in the Programa de Asesorías Académicas (Academic Tutorship Program) of the UABC Otay Campus during the span of February 2023 until August 2023.
+Source code for analyzing the attendance list from my Community Service in the Programa de Asesorías Académicas (Academic Tutorship Program) at UABC Otay Campus. The public records document activity from March 2 through October 20, 2023.
 
 # Author
 
@@ -21,7 +21,7 @@ Going into detail with each of the supplementary activities: (1) consists on exp
 
 # Results
 
-The academic tutorship labour within my schedule from the second half of Spring 2023 until the first half of Fall 2023 indicated a substantial interest from the students in the subjects I tutored, which were _Differential Calculus, and Numerical Analysis_. In total, 62 individual students registered attendance. From the same students, we registered a total attendance count of 288 attendances. In Figure 1 we appreciate the attendance peaks throughout the timespan of my duties. Said spikes from 10 to 14 registered attendances were recurrent during midterms and finals.
+The public records document academic tutoring activity from March through October 2023 in _Differential Calculus_, _Programming Methodology_, and _Programming and Numerical Methods_. In total, 62 unique students registered attendance. The public CSV contains 287 attendance rows, including three pairs of identical rows that must be reconciled with the original sign-in sheets before reporting a definitive visit total. Figure 1 shows attendance throughout the documented period; the original report associated several peaks with examination periods.
 
 The vast amount of registered attendances where overall found in the subject matter of _Differential Calculus_, where most of the students had lectures with the same professor. This detail assisted greatly with the supervision of their progress and any shortcomings with the class.
 
@@ -33,7 +33,7 @@ Finally, a very peculiar pattern was appreciated with 6 students. 5 of them atte
 
 <img src="../plots/00_timeseries_asistencia_por_dia.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
-**Figure 1.** Attendance Over Time from February 3, 2023 until October 20, 2023.
+**Figure 1.** Attendance over time from March 2 through October 20, 2023.
 
 <img src="../plots/01_horizontalbar_asistencia_por_dia_semana.png" alt="lorem ipsum dolor" width="800" height="500"/>
 

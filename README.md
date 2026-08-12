@@ -1,5 +1,5 @@
 # ServicioSocial_ITT
-Código fuente para el análisis de datos de la lista de asistencia de mi Servicio Social realizado en el Programa de Asesorías Académicas de la UABC Campus Otay durante el periodo de Febrero 2023 hasta Agosto 2023<sup>1</sup>.
+Código fuente para el análisis de la lista de asistencia de mi Servicio Social en el Programa de Asesorías Académicas de la UABC Campus Otay. Los registros públicos documentan actividad del 2 de marzo al 20 de octubre de 2023.<sup>1</sup>
 
 > <sup>1</sup> Full English translation available at [`./results/english-translation/README.md`](./results/english-translation/README.md)
 
@@ -27,7 +27,7 @@ Detallando cada una de las actividades complementarias: (1) consiste en explicar
 
 # Resultados
 
-La labor de asesor académico en los horarios que presentaba tanto en la segunda mitad del semestre FEB-AGO 2023 como en la primera mitad del semestre AGO-DIC 2023 indicó bastante interés por parte de los alumnos interesados en las materias que solicité asesorar, las cuales fueron _Calculo Diferencial, y Programación y Métodos Numéricos_. En total, se registró la asistencia de 62 estudiantes particulares. De estos mismos estudiantes, registramos un conteo de asistencias totales de 288 asistencias. En la Figura 1 se puede apreciar los picos de asistencia a lo largo del periodo de las funciones. Dichos picos desde 10 hasta 14 asistencias registradas eran recurrentes en las épocas de evaluación escolar.
+La labor de asesor académico entre marzo y octubre de 2023 registró interés en las materias solicitadas: _Cálculo Diferencial_, _Metodología de la Programación_ y _Programación y Métodos Numéricos_. En total, se identificaron 62 estudiantes particulares. El CSV público contiene 287 filas de asistencia, incluidas tres parejas de filas idénticas que deben conciliarse con las hojas originales antes de fijar un total definitivo. La Figura 1 muestra la afluencia a lo largo del periodo documentado; el informe original asoció varios picos con épocas de evaluación escolar.
 
 La mayor incidencia de asesorados se presentó rotundamente para la materia de _Cálculo Diferencial_, donde la gran mayoría de los asesorados presentaban clases con el mismo profesor. El detalle anterior facilitó bastante el seguimiento general de sus avances y percances con la materia asesorada.
 
@@ -39,7 +39,7 @@ Finalmente, un patrón muy peculiar se logró apreciar con 6 estudiantes. 5 de e
 
 <img src="./results/plots/00_timeseries_asistencia_por_dia.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
-**Figura 1.** Asistencia a Travéz del Tiempo desde Febrero 3, 2023 hasta Octubre 20, 2023. 
+**Figura 1.** Asistencia a través del tiempo desde el 2 de marzo de 2023 hasta el 20 de octubre de 2023.
 
 <img src="./results/plots/01_horizontalbar_asistencia_por_dia_semana.png" alt="lorem ipsum dolor" width="800" height="500"/>
 
